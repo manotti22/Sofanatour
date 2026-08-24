@@ -1,9 +1,10 @@
+
 function toggleRoute(id) {
+  alert("Die Funktion funktioniert! Route: " + id);
+
   const route = document.getElementById(id);
 
-  if (route.classList.contains("active")) {
-    route.classList.remove("active");
-  } else {
-    route.classList.add("active");
+  if (route) {
+    route.classList.toggle("active");
   }
 }
