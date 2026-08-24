@@ -93,3 +93,4 @@ function toggleRoute(routeId) {
         route.classList.add("open");
     }
 }
+window.toggleRoute = toggleRoute;
