@@ -222,33 +222,27 @@ nav {
 /* MAROKKO FOTOS */
 
 .marrakesch {
-  background-image:
-  url("https://images.unsplash.com/photo-1597212618440-806262de4f6b?auto=format&fit=crop&w=900&q=80");
+  background-image: url("DEIN-MARRAKESCH-FOTO.jpg");
 }
 
 .wueste {
-  background-image:
-  url("https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?auto=format&fit=crop&w=900&q=80");
+  background-image: url("DEIN-SAHARA-FOTO.jpg");
 }
 
 .fez {
-  background-image:
-  url("https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=80");
+  background-image: url("DEIN-FES-FOTO.jpg");
 }
 
 .chefchaouen {
-  background-image:
-  url("https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=900&q=80");
+  background-image: url("DEIN-CHEFCHAOUEN-FOTO.jpg");
 }
 
 .marokko {
-  background-image:
-  url("https://images.unsplash.com/photo-1579606032821-4e6161c81bd3?auto=format&fit=crop&w=900&q=80");
+  background-image: url("DEIN-ATLAS-FOTO.jpg");
 }
 
 .kueste {
-  background-image:
-  url("https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80");
+  background-image: url("DEIN-ESSAOUIRA-FOTO.jpg");
 }
 
 /* CARD TEXT */
