@@ -82,3 +82,14 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+function toggleRoute(routeId) {
+    const route = document.getElementById(routeId);
+
+    if (!route) return;
+
+    if (route.classList.contains("open")) {
+        route.classList.remove("open");
+    } else {
+        route.classList.add("open");
+    }
+}
