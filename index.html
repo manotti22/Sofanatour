@@ -99,183 +99,458 @@
 <section id="reisen" class="section">
 
   <div class="section-title">
-
     <div>
-
-      <p class="small-title">
-        RUNDREISEN
-      </p>
-
-      <h2>
-        Marokko entdecken
-      </h2>
-
+      <p class="small-title">RUNDREISEN</p>
+      <h2>Marokko entdecken</h2>
     </div>
 
     <p>
       Entdecken Sie unsere beliebten Reiseideen.
       Die Reiserouten können individuell angepasst werden.
     </p>
-
   </div>
 
 
   <div class="cards">
 
 
+    <!-- MARRAKESCH 3 TAGE -->
     <article class="card">
-
       <div class="image marrakesch"></div>
 
       <div class="card-content">
-
         <span>3 TAGE</span>
-
-        <h3>
-          Marrakesch
-        </h3>
+        <h3>Marrakesch</h3>
 
         <p>
           Entdecken Sie die Rote Stadt mit ihren Souks,
           Palästen, Gärten und traditionellen Märkten.
         </p>
 
-        <a href="#kontakt">
-          Route anfragen →
-        </a>
+        <button class="route-button" onclick="toggleRoute('route1')">
+          Route ansehen →
+        </button>
 
+        <div id="route1" class="route-details">
+
+          <h4>Tag 1 – Ankunft in Marrakesch</h4>
+          <p>
+            Abholung am Flughafen oder vereinbarten Treffpunkt.
+            Transfer zum Hotel und Zeit zum Ankommen.
+            Je nach Ankunftszeit erster Spaziergang durch die Medina.
+          </p>
+
+          <h4>Tag 2 – Marrakesch entdecken</h4>
+          <p>
+            Geführte Besichtigung der Medina, Koutoubia-Moschee,
+            Bahia-Palast, Souks und berühmter Plätze.
+            Am Abend Zeit für den Platz Djemaa el-Fna.
+          </p>
+
+          <h4>Tag 3 – Marrakesch & Abreise</h4>
+          <p>
+            Freizeit für Einkäufe und individuelle Besichtigungen.
+            Anschließend Transfer zum Flughafen oder nächsten Reiseziel.
+          </p>
+
+          <a
+            href="https://wa.me/212622540528?text=Hallo%20Sofana%20Tour%2C%20ich%20interessiere%20mich%20für%20die%203-tägige%20Marrakesch-Reise."
+            target="_blank"
+            class="button main-button">
+            Diese Reise anfragen
+          </a>
+
+        </div>
       </div>
-
     </article>
 
 
+    <!-- ATLAS & SAHARA 5 TAGE -->
     <article class="card">
-
       <div class="image wueste"></div>
 
       <div class="card-content">
-
         <span>5 TAGE</span>
-
-        <h3>
-          Atlas & Sahara
-        </h3>
+        <h3>Atlas & Sahara</h3>
 
         <p>
           Hoher Atlas, Kasbahs, Dades-Tal und
           ein besonderes Wüstenerlebnis in Merzouga.
         </p>
 
-        <a href="#kontakt">
-          Route anfragen →
-        </a>
+        <button class="route-button" onclick="toggleRoute('route2')">
+          Route ansehen →
+        </button>
 
+        <div id="route2" class="route-details">
+
+          <h4>Tag 1 – Marrakesch → Aït Ben Haddou → Ouarzazate</h4>
+          <p>
+            Fahrt über den Hohen Atlas und den Tizi n'Tichka-Pass.
+            Besichtigung der berühmten Kasbah Aït Ben Haddou.
+            Weiterfahrt nach Ouarzazate.
+          </p>
+
+          <h4>Tag 2 – Ouarzazate → Dades-Tal</h4>
+          <p>
+            Fahrt durch das Tal der Rosen und die beeindruckende
+            Landschaft des Dades-Tals. Besichtigung von Kasbahs
+            und traditionellen Dörfern.
+          </p>
+
+          <h4>Tag 3 – Dades → Merzouga</h4>
+          <p>
+            Fahrt durch die Landschaft des Südostens Marokkos.
+            Weiterfahrt nach Merzouga und Ankunft am Rand der Sahara.
+          </p>
+
+          <h4>Tag 4 – Sahara-Erlebnis</h4>
+          <p>
+            Wüstenerlebnis in Merzouga. Möglichkeit zu einem
+            Kamelritt und Sonnenuntergang in den Dünen.
+            Übernachtung im Wüstencamp.
+          </p>
+
+          <h4>Tag 5 – Merzouga → Rückfahrt</h4>
+          <p>
+            Morgens Sonnenaufgang in der Sahara.
+            Anschließend Rückfahrt beziehungsweise Weiterreise
+            nach Vereinbarung.
+          </p>
+
+          <a
+            href="https://wa.me/212622540528?text=Hallo%20Sofana%20Tour%2C%20ich%20interessiere%20mich%20für%20die%205-tägige%20Atlas-%26-Sahara-Reise."
+            target="_blank"
+            class="button main-button">
+            Diese Reise anfragen
+          </a>
+
+        </div>
       </div>
-
     </article>
 
 
+    <!-- KLASSISCHES MAROKKO 7 TAGE -->
     <article class="card">
-
       <div class="image fez"></div>
 
       <div class="card-content">
-
         <span>7 TAGE</span>
-
-        <h3>
-          Klassisches Marokko
-        </h3>
+        <h3>Klassisches Marokko</h3>
 
         <p>
           Marrakesch, Aït Ben Haddou, Sahara und Fès –
           eine abwechslungsreiche Rundreise.
         </p>
 
-        <a href="#kontakt">
-          Route anfragen →
-        </a>
+        <button class="route-button" onclick="toggleRoute('route3')">
+          Route ansehen →
+        </button>
 
+        <div id="route3" class="route-details">
+
+          <h4>Tag 1 – Marrakesch</h4>
+          <p>
+            Ankunft, Transfer zum Hotel und erste Entdeckung
+            der Medina.
+          </p>
+
+          <h4>Tag 2 – Marrakesch</h4>
+          <p>
+            Geführte Besichtigung der wichtigsten Sehenswürdigkeiten,
+            Souks, Paläste und Djemaa el-Fna.
+          </p>
+
+          <h4>Tag 3 – Marrakesch → Aït Ben Haddou → Ouarzazate</h4>
+          <p>
+            Überquerung des Hohen Atlas und Besichtigung
+            der berühmten Kasbah Aït Ben Haddou.
+          </p>
+
+          <h4>Tag 4 – Ouarzazate → Dades → Merzouga</h4>
+          <p>
+            Fahrt durch beeindruckende Täler und Landschaften
+            bis in die Sahara-Region.
+          </p>
+
+          <h4>Tag 5 – Merzouga & Sahara</h4>
+          <p>
+            Wüstenerlebnis, Dünen, Sonnenuntergang und
+            Möglichkeit zum Kamelritt.
+          </p>
+
+          <h4>Tag 6 – Merzouga → Midelt → Fès</h4>
+          <p>
+            Fahrt über den Mittleren Atlas nach Fès.
+          </p>
+
+          <h4>Tag 7 – Fès</h4>
+          <p>
+            Geführte Besichtigung der historischen Medina
+            und wichtigsten Sehenswürdigkeiten.
+            Anschließend Abreise oder individuelle Verlängerung.
+          </p>
+
+          <a
+            href="https://wa.me/212622540528?text=Hallo%20Sofana%20Tour%2C%20ich%20interessiere%20mich%20für%20die%207-tägige%20klassische%20Marokko-Rundreise."
+            target="_blank"
+            class="button main-button">
+            Diese Reise anfragen
+          </a>
+
+        </div>
       </div>
-
     </article>
 
 
+    <!-- NORD NACH SÜD 10 TAGE -->
     <article class="card">
-
       <div class="image chefchaouen"></div>
 
       <div class="card-content">
-
         <span>10 TAGE</span>
-
-        <h3>
-          Nord nach Süd
-        </h3>
+        <h3>Nord nach Süd</h3>
 
         <p>
           Tanger, Chefchaouen, Fès, Sahara,
           Marrakesch und die Atlantikküste.
         </p>
 
-        <a href="#kontakt">
-          Route anfragen →
-        </a>
+        <button class="route-button" onclick="toggleRoute('route4')">
+          Route ansehen →
+        </button>
 
+        <div id="route4" class="route-details">
+
+          <h4>Tag 1 – Tanger</h4>
+          <p>
+            Ankunft in Tanger, Transfer zum Hotel und
+            erste Besichtigung der Stadt.
+          </p>
+
+          <h4>Tag 2 – Tanger → Chefchaouen</h4>
+          <p>
+            Fahrt in die blaue Stadt Chefchaouen.
+            Spaziergang durch die Medina und freie Zeit.
+          </p>
+
+          <h4>Tag 3 – Chefchaouen → Fès</h4>
+          <p>
+            Weiterfahrt nach Fès und erste Entdeckung
+            der historischen Stadt.
+          </p>
+
+          <h4>Tag 4 – Fès</h4>
+          <p>
+            Geführte Besichtigung der Medina,
+            Souks und wichtigsten Sehenswürdigkeiten.
+          </p>
+
+          <h4>Tag 5 – Fès → Merzouga</h4>
+          <p>
+            Fahrt über den Mittleren Atlas Richtung Sahara.
+          </p>
+
+          <h4>Tag 6 – Merzouga & Sahara</h4>
+          <p>
+            Wüstenerlebnis, Dünen, Sonnenuntergang
+            und Möglichkeit zum Kamelritt.
+          </p>
+
+          <h4>Tag 7 – Merzouga → Ouarzazate</h4>
+          <p>
+            Fahrt durch das Draa-Tal und Weiterfahrt
+            nach Ouarzazate.
+          </p>
+
+          <h4>Tag 8 – Ouarzazate → Marrakesch</h4>
+          <p>
+            Besuch von Aït Ben Haddou und Fahrt
+            über den Hohen Atlas nach Marrakesch.
+          </p>
+
+          <h4>Tag 9 – Marrakesch</h4>
+          <p>
+            Geführte Stadtbesichtigung und freie Zeit
+            für Souks und persönliche Entdeckungen.
+          </p>
+
+          <h4>Tag 10 – Marrakesch → Atlantikküste</h4>
+          <p>
+            Weiterreise Richtung Atlantikküste.
+            Ziel und Programm können individuell vereinbart werden.
+          </p>
+
+          <a
+            href="https://wa.me/212622540528?text=Hallo%20Sofana%20Tour%2C%20ich%20interessiere%20mich%20für%20die%2010-tägige%20Nord-nach-Süd-Reise."
+            target="_blank"
+            class="button main-button">
+            Diese Reise anfragen
+          </a>
+
+        </div>
       </div>
-
     </article>
 
 
+    <!-- GROSSE MAROKKO RUNDREISE 14 TAGE -->
     <article class="card">
-
       <div class="image marokko"></div>
 
       <div class="card-content">
-
         <span>14 TAGE</span>
-
-        <h3>
-          Große Marokko-Rundreise
-        </h3>
+        <h3>Große Marokko-Rundreise</h3>
 
         <p>
           Eine ausführliche Reise durch die wichtigsten
           Regionen und schönsten Orte Marokkos.
         </p>
 
-        <a href="#kontakt">
-          Route anfragen →
-        </a>
+        <button class="route-button" onclick="toggleRoute('route5')">
+          Route ansehen →
+        </button>
 
+        <div id="route5" class="route-details">
+
+          <h4>Tag 1 – Ankunft in Casablanca / Transfer</h4>
+          <p>
+            Empfang und Transfer zum Hotel.
+            Je nach Ankunftszeit erste Besichtigung.
+          </p>
+
+          <h4>Tag 2 – Casablanca → Rabat</h4>
+          <p>
+            Besichtigung von Casablanca und Weiterfahrt
+            in die Hauptstadt Rabat.
+          </p>
+
+          <h4>Tag 3 – Rabat → Chefchaouen</h4>
+          <p>
+            Fahrt nach Chefchaouen und Besichtigung
+            der berühmten blauen Medina.
+          </p>
+
+          <h4>Tag 4 – Chefchaouen → Fès</h4>
+          <p>
+            Weiterfahrt nach Fès.
+          </p>
+
+          <h4>Tag 5 – Fès</h4>
+          <p>
+            Ausführliche Stadtbesichtigung und Entdeckung
+            der historischen Medina.
+          </p>
+
+          <h4>Tag 6 – Fès → Midelt → Merzouga</h4>
+          <p>
+            Fahrt durch den Mittleren Atlas bis zur Sahara.
+          </p>
+
+          <h4>Tag 7 – Merzouga & Sahara</h4>
+          <p>
+            Freier Tag beziehungsweise Wüstenerlebnis,
+            Dünen und Sonnenuntergang.
+          </p>
+
+          <h4>Tag 8 – Merzouga → Dades-Tal</h4>
+          <p>
+            Fahrt durch die beeindruckende Landschaft
+            des Südostens.
+          </p>
+
+          <h4>Tag 9 – Dades → Ouarzazate → Aït Ben Haddou</h4>
+          <p>
+            Besichtigung von Kasbahs und Aït Ben Haddou.
+          </p>
+
+          <h4>Tag 10 – Aït Ben Haddou → Marrakesch</h4>
+          <p>
+            Fahrt über den Hohen Atlas nach Marrakesch.
+          </p>
+
+          <h4>Tag 11 – Marrakesch</h4>
+          <p>
+            Geführte Besichtigung der Roten Stadt.
+          </p>
+
+          <h4>Tag 12 – Marrakesch</h4>
+          <p>
+            Freie Zeit für Einkäufe, Souks und
+            individuelle Aktivitäten.
+          </p>
+
+          <h4>Tag 13 – Marrakesch → Essaouira</h4>
+          <p>
+            Fahrt an die Atlantikküste und Besichtigung
+            von Essaouira.
+          </p>
+
+          <h4>Tag 14 – Essaouira / Abreise</h4>
+          <p>
+            Freie Zeit und anschließend Transfer
+            zum vereinbarten Abreiseort.
+          </p>
+
+          <a
+            href="https://wa.me/212622540528?text=Hallo%20Sofana%20Tour%2C%20ich%20interessiere%20mich%20für%20die%2014-tägige%20große%20Marokko-Rundreise."
+            target="_blank"
+            class="button main-button">
+            Diese Reise anfragen
+          </a>
+
+        </div>
       </div>
-
     </article>
 
 
+    <!-- WUNSCHREISE -->
     <article class="card">
-
       <div class="image kueste"></div>
 
       <div class="card-content">
-
         <span>INDIVIDUELL</span>
-
-        <h3>
-          Ihre Wunschreise
-        </h3>
+        <h3>Ihre Wunschreise</h3>
 
         <p>
           Sie bestimmen Reisedauer, Interessen und Wünsche.
           Wir helfen bei der Planung Ihrer persönlichen Reise.
         </p>
 
-        <a href="#kontakt">
-          Wunschreise planen →
-        </a>
+        <button class="route-button" onclick="toggleRoute('route6')">
+          Reise planen →
+        </button>
 
+        <div id="route6" class="route-details">
+
+          <h4>Ihre Reise – individuell geplant</h4>
+
+          <p>
+            Sie möchten Marokko auf Ihre eigene Art entdecken?
+            Teilen Sie uns Ihre Wünsche mit und wir erstellen
+            gemeinsam mit Ihnen eine passende Reiseroute.
+          </p>
+
+          <p>
+            Möglich sind zum Beispiel Städte, Wüste,
+            Atlasgebirge, Atlantikküste, Kultur, Natur,
+            Familienreisen oder Gruppenreisen.
+          </p>
+
+          <p>
+            Auch Reisedauer, Hotels, Transport und
+            deutschsprachige Begleitung können nach Ihren
+            Vorstellungen organisiert werden.
+          </p>
+
+          <a
+            href="https://wa.me/212622540528?text=Hallo%20Sofana%20Tour%2C%20ich%20möchte%20eine%20individuelle%20Marokko-Reise planen."
+            target="_blank"
+            class="button main-button">
+            Wunschreise anfragen
+          </a>
+
+        </div>
       </div>
-
     </article>
 
   </div>
