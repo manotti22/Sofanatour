@@ -1,1 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
 
+:root {
+  --dark: #18201d;
+  --sand: #f5efe4;
+  --gold: #c7964a;
+  --text: #29312e;
+  --muted: #69716d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  color: var(--text);
+  background: white;
+  line-height: 1.6;
+}
+
+/* HEADER */
+
+.hero {
+  min-height: 720px;
+  color: white;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(10,18,16,.80),
+      rgba(10,18,16,.25)
+    ),
+    url("https://images.unsplash.com/photo-1539020140153-e479b8c22e70?auto=format&fit=crop&w=1800&q=85")
+    center / cover;
+}
+
+/* NAVIGATION */
+
+nav {
+  max-width: 1180px;
+  margin: auto;
+  padding: 24px 22px;
+
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.logo span {
+  color: #e1b76f;
+}
+
+.menu {
+  margin-left: auto;
+  display: flex;
+  gap: 24px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.menu a:hover {
+  color: #e1b76f;
+}
+
+.whatsapp-button {
+  background: white;
+  color: var(--dark);
+  padding: 10px 16px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* HERO TEXT */
+
+.hero-content {
+  max-width: 1180px;
+  margin: auto;
+  padding: 145px 22px 80px;
+}
+
+.small-title {
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  font-weight: 700;
+  color: var(--gold);
+  margin-bottom: 12px;
+}
+
+.hero .small-title {
+  color: #e1b76f;
+}
+
+.hero h1 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(46px, 7vw, 82px);
+  line-height: 1.04;
+  margin: 0 0 24px;
+}
+
+.hero h1 span {
+  color: #e1b76f;
+}
+
+.intro-text {
+  max-width: 650px;
+  font-size: 19px;
+}
+
+/* BUTTONS */
+
+.buttons {
+  display: flex;
+  gap: 14px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.button {
+  display: inline-block;
+  padding: 14px 23px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.main-button {
+  background: var(--gold);
+  color: white;
+}
+
+.second-button {
+  border: 1px solid white;
+  color: white;
+}
+
+/* INTRO */
+
+.intro-section {
+  max-width: 850px;
+  margin: auto;
+  text-align: center;
+  padding: 95px 22px 65px;
+}
+
+.intro-section h2,
+.section h2,
+.about h2,
+.contact h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  line-height: 1.15;
+  margin: 0 0 16px;
+}
+
+.intro-section p:last-child {
+  color: var(--muted);
+  font-size: 17px;
+}
+
+/* SECTIONS */
+
+.section {
+  max-width: 1180px;
+  margin: auto;
+  padding: 65px 22px;
+}
+
+.section-title {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: end;
+  margin-bottom: 34px;
+}
+
+.section-title > p {
+  max-width: 450px;
+  color: var(--muted);
+}
+
+/* CARDS */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #e9e5dd;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 28px rgba(30,35,31,.08);
+}
+
+.image {
+  height: 210px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* MAROKKO FOTOS */
+
+.marrakesch {
+  background-image:
+  url("https://images.unsplash.com/photo-1597212618440-806262de4f6b?auto=format&fit=crop&w=900&q=80");
+}
+
+.wueste {
+  background-image:
+  url("https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?auto=format&fit=crop&w=900&q=80");
+}
+
+.fez {
+  background-image:
+  url("https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=80");
+}
+
+.chefchaouen {
+  background-image:
+  url("https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=900&q=80");
+}
+
+.marokko {
+  background-image:
+  url("https://images.unsplash.com/photo-1579606032821-4e6161c81bd3?auto=format&fit=crop&w=900&q=80");
+}
+
+.kueste {
+  background-image:
+  url("https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80");
+}
+
+/* CARD TEXT */
+
+.card-content {
+  padding: 22px;
+}
+
+.card-content span {
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  font-weight: 800;
+  color: var(--gold);
+}
+
+.card-content h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  margin: 6px 0;
+}
+
+.card-content p {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.card-content a {
+  color: var(--dark);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* LEISTUNGEN */
+
+.services {
+  background: var(--sand);
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.service {
+  background: white;
+  padding: 28px;
+  border-radius: 15px;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.service h3 {
+  margin: 10px 0 5px;
+}
+
+.service p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+/* ÜBER UNS */
+
+.about {
+  max-width: 1000px;
+  margin: auto;
+  padding: 100px 22px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+}
+
+.about p {
+  color: var(--muted);
+}
+
+/* KONTAKT */
+
+.contact {
+  background: var(--dark);
+  color: white;
+  text-align: center;
+  padding: 90px 22px;
+}
+
+.contact h2 {
+  color: white;
+}
+
+.contact > p {
+  max-width: 600px;
+  margin: 0 auto 25px;
+}
+
+.phone {
+  margin-top: 20px !important;
+  color: #e1b76f !important;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+/* FOOTER */
+
+footer {
+  background: #101513;
+  color: #aeb5b1;
+  text-align: center;
+  padding: 35px 20px;
+  font-size: 13px;
+}
+
+footer p {
+  margin: 5px;
+}
+
+/* HANDY */
+
+@media (max-width: 800px) {
+
+  .menu {
+    display: none;
+  }
+
+  .hero {
+    min-height: 680px;
+  }
+
+  .hero-content {
+    padding-top: 120px;
+  }
+
+  .section-title {
+    display: block;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 70px 22px;
+  }
+
+  .intro-section h2,
+  .section h2,
+  .about h2,
+  .contact h2 {
+    font-size: 35px;
+  }
+
+  .image {
+    height: 230px;
+  }
+
+  nav {
+    padding: 18px;
+  }
+
+  .whatsapp-button {
+    margin-left: auto;
+  }
+
+  .hero-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}
