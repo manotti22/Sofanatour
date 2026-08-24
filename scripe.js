@@ -1,4 +1,3 @@
-
 function toggleRoute(id) {
   const route = document.getElementById(id);
 
