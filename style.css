@@ -444,6 +444,22 @@ footer p {
   color: var(--dark);
 }
 
+.route-details {
+  display: none;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #e9e5dd;
+}
+
+.route-details.active {
+  display: block;
+}
+
+.route-details h4 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
 .route-details p {
   margin-top: 5px;
 }
