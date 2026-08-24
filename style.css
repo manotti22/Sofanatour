@@ -435,7 +435,13 @@ footer p {
 .route-details.open {
     display: block;
 }
+.route-details {
+  display: none;
+}
 
+.route-details.active {
+  display: block;
+}
 .route-details h4 {
     margin-top: 20px;
 }
