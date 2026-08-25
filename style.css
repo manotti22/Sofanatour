@@ -468,3 +468,10 @@ footer p {
   cursor: pointer;
   text-decoration: underline;
 }
+/* LOGO-BILD */
+
+.logo img {
+  height: 55px;
+  width: auto;
+  display: block;
+}
